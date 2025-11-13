@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Path mapping */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@app/*": ["./src/app/*"],
+      "@admin/*": ["src/app/contexts/admin/*"],
+      "@auth/*": ["src/app/contexts/auth/*"],
+      "@travel/*": ["src/app/contexts/travel/*"],
+      "@ui/*": ["./src/ui/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@tests/*": ["./tests/*"]
+    }
+  },
+  "include": [
+    "src",
+    "tests",
+    "vite.config.ts",
+    "backup/SearchTravelLocation.Autocomplete.tsx"
+  ],
+  "exclude": ["backup"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

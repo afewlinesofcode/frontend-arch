@@ -1,0 +1,17 @@
+.searchBar {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid {
+  width: 100%;
+}
+
+.gridColSearch {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}

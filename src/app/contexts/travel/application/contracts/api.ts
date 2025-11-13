@@ -1,0 +1,6 @@
+export type { PurchaseTravelCommand } from '../use-cases/purchase-travel'
+export type { PurchaseLastMinuteDealCommand } from '../use-cases/purchase-last-minute-deal'
+export type { SearchTravelsQuery } from '../use-cases/search-travels'
+export type { RenamePurchasedTravelCommand } from '../use-cases/rename-purchased-travel'
+export type { RenamePurchasedTravelResponse } from '../use-cases/rename-purchased-travel'
+export type { GetPurchasedTravelsResponse } from '../use-cases/get-purchased-travels'
