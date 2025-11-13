@@ -1023,3 +1023,8 @@ In this article we have built a very nice UI which doesn't perform any side effe
 The code may look very verbose, more like a framework, and seems to be overkill. Well, for this particular application yes. But only now, while the project is small. As the application grows the simpler you start the more mess you have in the project later, because when you have a lot of building blocks in the application, you need more rooms for them, and these rooms need a solid foundation.
 
 I hope you found this article helpful and some ideas will inspire you to implement something new in your projects.
+
+---
+
+© 2025 Stanislav Yaranov
+Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
