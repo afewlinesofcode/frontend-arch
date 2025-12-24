@@ -1,4 +1,4 @@
-# Architecturing frontend
+# Bare-metal frontend
 
 ## Introduction
 
@@ -1020,9 +1020,13 @@ And see a new last-minute deal appeared in the list.
 
 In this article we have built a very nice UI which doesn't perform any side effect by itself, and for this reason it is very easy to develop and maintain. Responsibility for various logic processing and decision making has moved to the application - the central thing that should orchestrate everything, and UI becomes only a presentation of this. We've touched DDD, cared about separation of concerns, didn't forget about SOLID, and implemented a nice layered architecture that allows for easy testing and maintenance, and exported a very convenient API. We've also built a nice bridge between application and UI via hooks and events.
 
-The code may look very verbose, more like a framework, and seems to be overkill. Well, for this particular application yes. But only now, while the project is small. As the application grows the simpler you start the more mess you have in the project later, because when you have a lot of building blocks in the application, you need more rooms for them, and these rooms need a solid foundation.
+The code may look very verbose, more like a framework, and seems to be overkill. Well, for this particular application - yes. But only now, while the project is small. As the application grows the simpler you start the more mess you have in the project later, because when you have a lot of building blocks in the application, you need more rooms for them, and these rooms need a solid foundation.
 
-I hope you found this article helpful and some ideas will inspire you to implement something new in your projects.
+So I hope you found this article helpful and some ideas will inspire you to implement something new in your projects.
+
+P.S. It is actually not that bare-metal since I used React for UI, Mantine UI for components, and EventEmitter for event bus. But I thinks that's ok. When you need to make something not very trivial bare-metal for STM32 you still have to use a few basic libraries.
+
+P.P.S. Sorry for my English, I didn't want to process it via AI tools to not lose my identity.
 
 ---
 
